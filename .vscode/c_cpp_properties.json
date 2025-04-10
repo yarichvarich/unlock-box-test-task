@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:/clang_llvm/lib/clang/18/include/**" // Path to clang include
+            ],
+            "defines": [],
+            "compilerPath": "E:/clang_llvm/bin/clang++.exe", // Path to clang compiler
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

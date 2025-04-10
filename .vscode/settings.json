@@ -1,0 +1,63 @@
+{
+  "clangd.path": "E:/clang_llvm/bin/clangd.exe",
+  "clangd.arguments": [
+    "--background-index",  // Index code in the background
+    "--clang-tidy",       // Enable linting
+    "--all-scopes-completion",  // Better autocomplete
+    "--completion-style=detailed",
+    "--header-insertion=never"
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "clangd.format.enable": true,  // Let clangd handle formatting
+  "C_Cpp.default.compilerPath": "E:/clang_llvm/bin/clang++.exe",
+  "files.associations": {
+    "ostream": "cpp",
+    "vector": "cpp",
+    "algorithm": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "exception": "cpp",
+    "initializer_list": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "istream": "cpp",
+    "iterator": "cpp",
+    "limits": "cpp",
+    "memory": "cpp",
+    "new": "cpp",
+    "random": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "utility": "cpp",
+    "xfacet": "cpp",
+    "xiosbase": "cpp",
+    "xlocale": "cpp",
+    "xlocinfo": "cpp",
+    "xlocnum": "cpp",
+    "xmemory": "cpp",
+    "xstddef": "cpp",
+    "xstring": "cpp",
+    "xtr1common": "cpp",
+    "xutility": "cpp"
+  },
+  "clang-tidy.fixOnSave": true,
+  "makefile.configureOnOpen": false
+}

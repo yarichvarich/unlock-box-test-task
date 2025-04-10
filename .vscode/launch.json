@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug with LLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/debug/unlock_box", 
+            "args": ["10", "5"],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build-debug",
+        },
+    ]
+}

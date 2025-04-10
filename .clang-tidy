@@ -1,0 +1,10 @@
+Checks: >
+  bugprone-*,
+  modernize-*,
+  performance-*
+WarningsAsErrors: '*'
+
+Checks: 'readability-identifier-naming'
+CheckOptions:
+  - key: readability-identifier-naming.MinLength
+    value: '1'  # Minimum identifier length
