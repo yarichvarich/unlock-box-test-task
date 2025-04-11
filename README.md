@@ -39,7 +39,7 @@ The algorithm consists of the following steps:
 ## Installation & Compilation
 ```sh
 # Clone the repository
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/yarichvarich/unlock-box-tet-task.git
 cd repository-name
 
 # Compile the code
